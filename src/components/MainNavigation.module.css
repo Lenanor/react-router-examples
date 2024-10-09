@@ -1,0 +1,14 @@
+.list {
+  list-style-type: none;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+.list li {
+  padding: 0.5rem 1rem;
+}
+
+.list a.active {
+  text-decoration: underline;
+}
