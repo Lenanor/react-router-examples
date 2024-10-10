@@ -7,6 +7,7 @@ function Card({ id, title, category = "unknown" }) {
 
   return (
     <article className={classes.article}>
+      {/* relative path */}
       <Link to={`${categoryLower}-${id}`}>
         <h3>{title}</h3>
         <p>{category}</p>
