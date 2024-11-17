@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 
 function Product() {
   const params = useParams();
+
   return (
     <article>
       <h1>Params: {params.id}</h1>
