@@ -5,7 +5,7 @@ const DUMMY_PRODUCTS = [
   { id: 2, title: "Tomato", category: "Vegetable" },
   { id: 3, title: "Apple", category: "Fruit" },
   { id: 4, title: "Beer", category: "Beverage" },
-  { id: 5, title: "Pak Choi", category: undefined },
+  { id: 5, title: "Aspargus", category: undefined },
 ];
 
 function Products() {
